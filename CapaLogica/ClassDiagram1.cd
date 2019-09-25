@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CapaLogica.Inquilino">
+    <Position X="5.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Cliente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaLogica.Persona">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEACAAgAAAAAEAAAAAAAAAAwAAAAA=</HashCode>
+      <FileName>Persona.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaLogica.Garante">
+    <Position X="3.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQBAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAQ=</HashCode>
+      <FileName>Garante.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="LReciboSueldo" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="CapaLogica.Duenio">
+    <Position X="8" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAgAAIAAQAiAAAAIAAAAgAQAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Duenio.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="Lcasa" />
+      <Field Name="Ldepartamento" />
+      <Field Name="Llocalcomercial" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="CapaLogica.ReciboSueldo">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>ReciboSueldo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaLogica.Inmuebles">
+    <Position X="9.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAgAAAACAAAAABAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Inmuebles.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaLogica.LocalComercial">
+    <Position X="3.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAABAAAAIACAAAAAAAAAAAACgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LocalesComerciales.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaLogica.Casa">
+    <Position X="6" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAIACgAAAAgAAAAAAIQAA=</HashCode>
+      <FileName>Casa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaLogica.Departamento">
+    <Position X="8" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIBAAgAIABJAAAAAAAAAAAUAAAAAIAAAAA=</HashCode>
+      <FileName>Departamento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaLogica.ContratoAlquiler">
+    <Position X="0.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAgCAQAQQAAAFAAAEAACABAMAgEAAAAAAAAAABAAAgA=</HashCode>
+      <FileName>ContratoAlquiler.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="OInquilino" />
+      <Field Name="OGarante" />
+      <Field Name="ODuenio" />
+      <Field Name="Ocasa" />
+      <Field Name="Odepartamento" />
+      <Field Name="Olocal" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

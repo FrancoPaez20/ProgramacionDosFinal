@@ -1,0 +1,2 @@
+C:\Users\franc\source\repos\FinalProgra2\Capa de Logica\obj\Debug\Capa de Logica.csprojAssemblyReference.cache
+C:\Users\franc\source\repos\FinalProgra2\Capa de Logica\obj\Debug\Capa de Logica.csproj.CoreCompileInputs.cache

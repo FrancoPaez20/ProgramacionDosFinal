@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Database1" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Database1.mdf;Integrated Security=True" SettingsObjectName="Capa_da_Datos.Properties.Settings" SettingsPropertyName="Database1ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.ReciboSuelo" Member="ENTIDADRECIBOSUELDO">
+    <Type Name="ENTIDADRECIBOSUELDO">
+      <Column Name="IdReciboSueldo" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Detalle" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Sueldo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="IdGarante" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ContratoAlquiler" Member="ENTIDADCONTRATOALQUILER">
+    <Type Name="ENTIDADCONTRATOALQUILER">
+      <Column Name="IdContratoAlquiler" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="IdGarante" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IdDuenio" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IdInquilino" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IdInmueble" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FechaInicio" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Meses" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Duenio" Member="ENTIDADDUENIO">
+    <Type Name="ENTIDADDUENIO">
+      <Column Name="IdDuenio" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Apellido" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Nombre" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="DNI" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Direccion" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Telefono" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Mail" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Banco" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="NumeroCuenta" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Garante" Member="ENTIDADGARANTE">
+    <Type Name="ENTIDADGARANTE">
+      <Column Name="IdGarante" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Apellido" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Nombre" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="DNI" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Direccion" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Telefono" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Mail" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Empleo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Inquilino" Member="ENTIDADINQUILINO">
+    <Type Name="ENTIDADINQUILINO">
+      <Column Name="IdInquilino" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Apellido" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Nombre" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="DNI" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Direccion" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Telefono" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Mail" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Otros" Member="ENTIDADOTROS">
+    <Type Name="ENTIDADOTROS">
+      <Column Name="IdOtros" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Ascensor" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Cochera" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Piscina" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Portero" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IdDepartamento" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.LocalComercial" Member="ENTIDADLOCALCOMERCIAL">
+    <Type Name="ENTIDADLOCALCOMERCIAL">
+      <Column Name="IdLocalComercial" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CantidadAmbientes" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Descripcion" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Direccion" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Tamnio" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Banios" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CantidadOficinas" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Cocina" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="TamanioFente" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Foto" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="IdInquilino" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Departamento" Member="ENTIDADDEPARTAMENTO">
+    <Type Name="ENTIDADDEPARTAMENTO">
+      <Column Name="IdDepartamento" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CantidadAmbientes" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Descipcion" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Direccion" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Tamanio" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Balcones" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Expensas" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Piso" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Puerta" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Foto" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="IdInquilino" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Casa" Member="ENTIDADCASA">
+    <Type Name="ENTIDADCASA">
+      <Column Name="IdCasa" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Descipcion" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Direccion" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Tamanio" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Banios" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CantidadPisos" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Habitaciones" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="TamanioJardin" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="TamanioPatio" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Foto" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="CantidadAmbientes" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="IdInquilino" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

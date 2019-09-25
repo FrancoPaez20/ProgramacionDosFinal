@@ -1,0 +1,10 @@
+C:\Users\franc\source\repos\FinalProgra2\CapaLogica\bin\Debug\CapaLogica.dll
+C:\Users\franc\source\repos\FinalProgra2\CapaLogica\bin\Debug\CapaLogica.pdb
+C:\Users\franc\source\repos\FinalProgra2\CapaLogica\bin\Debug\CapaDatos.dll
+C:\Users\franc\source\repos\FinalProgra2\CapaLogica\bin\Debug\CapaDatos.pdb
+C:\Users\franc\source\repos\FinalProgra2\CapaLogica\bin\Debug\CapaDatos.dll.config
+C:\Users\franc\source\repos\FinalProgra2\CapaLogica\obj\Debug\CapaLogica.csprojAssemblyReference.cache
+C:\Users\franc\source\repos\FinalProgra2\CapaLogica\obj\Debug\CapaLogica.csproj.CoreCompileInputs.cache
+C:\Users\franc\source\repos\FinalProgra2\CapaLogica\obj\Debug\CapaLogica.csproj.CopyComplete
+C:\Users\franc\source\repos\FinalProgra2\CapaLogica\obj\Debug\CapaLogica.dll
+C:\Users\franc\source\repos\FinalProgra2\CapaLogica\obj\Debug\CapaLogica.pdb

@@ -1,0 +1,2 @@
+C:\Users\franc\source\repos\FinalProgra2\Capa da Datos\obj\Debug\Capa da Datos.csprojAssemblyReference.cache
+C:\Users\franc\source\repos\FinalProgra2\Capa da Datos\obj\Debug\Capa da Datos.csproj.CoreCompileInputs.cache
